@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "林力建",
+	name: "杜成林",
 
 	// 个人签名
-	bio: "世界一流歌唱家",
+	bio: "全栈AI工程师",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -24,13 +24,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/linox1953",
+			url: "https://github.com/Herbariaa",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:linox1953@outlook.com",
+			url: "mailto:dclls@foxmail.com",
 			showName: false,
 		},
 		{

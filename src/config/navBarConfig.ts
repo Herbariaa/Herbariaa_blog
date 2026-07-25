@@ -79,7 +79,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/linox1953",
+				url: "https://github.com/Herbariaa",
 				external: true,
 				icon: "fa7-brands:github",
 			},
@@ -96,6 +96,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 	icon: "fa7-brands:qq",
 			// },
 			{
+				name: "MilitAI",
+				url: "https://militai.top",
+				external: true,
+				icon: "material-symbols:terminal",
+			},
+			{
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
@@ -104,13 +110,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 文档链接
-	// links.push({
-	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
-	// 	external: true,
-	// 	icon: "material-symbols:docs",
-	// });
 
 	return { links } as NavBarConfig;
 };
@@ -131,7 +130,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:home",
 	},
 	Archive: {
-		name: "归档",
+		name: "全部",
 		url: "/archive/",
 		icon: "material-symbols:archive",
 	},
@@ -164,7 +163,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "guestbook",
 	},
 	About: {
-		name: "关于我",
+		name: "关于",
 		url: "/about/",
 		icon: "material-symbols:person",
 	},
