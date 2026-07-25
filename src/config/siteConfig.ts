@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Full Stack. AI Native. ",
 
 	// 站点 URL
-	site_url: "herbaria.blog",
+	site_url: "https://herbaria.blog",
 
 	// 站点描述
 	description: "杜成林的个人博客",
